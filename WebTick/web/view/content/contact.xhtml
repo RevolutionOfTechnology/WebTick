@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <body>
+
+        <ui:composition template="./../template/TemplateUser.xhtml">
+
+            <ui:define name="content">
+                <div class="breadcrumb bg-image">
+                    <div class="overlay"></div>
+                    <div class="page-title">
+                        <h1>Stay Close</h1>
+                        <h2>Contaáctanos</h2>
+                    </div>
+                </div><!-- breadcrumb --> 
+
+                <div class="feedback section-padding before-after">
+                    <div class="container">
+                        <div class="feedback-content">
+                            <h1>Envianos tu feedback</h1>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="one">Nombre</label>
+                                            <input type="text" class="form-control" required="required" id="one"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="two">Email</label>
+                                            <input type="email" class="form-control" required="required" id="two"/>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="three">Celular</label>
+                                            <input type="text" class="form-control" required="required" id="three"/>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="four">Comentario</label>
+                                            <textarea name="message" required="required" class="form-control" rows="7" id="four"></textarea>
+                                        </div>             
+                                    </div>     
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+                                </div><!-- contact form --> 
+                        </div>
+                    </div><!-- container --> 
+                </div><!-- feedback --> 
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
