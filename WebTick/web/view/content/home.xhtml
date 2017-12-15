@@ -7,109 +7,128 @@
 
         <ui:composition template="./../template/TemplateUser.xhtml">
 
-            <ui:define name="content">
-                <div class="home-banner">
-            <div class="container">
-                <div class="home-content text-center">
-                    <div class="logo-intro">
-                        <img  class="img-responsive" src="../../resources/images/logo-2.png" alt="Image"/>
-                        <span>Present</span>
-                    </div>
-                    <h2>Music Festival</h2>               
-                    <a href="#" class="btn btn-primary">Obtener Ticket<i class="fa fa-chevron-circle-right"></i></a>
-                    <ul class="social list-inline">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-soundcloud"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>
-                </div>
-                
-            </div><!-- container -->
-        </div><!-- home banner -->
-        
-        <div class="about-section about bg-image section-padding before-after">
-            <div class="section-title">
-                <h1>Tour Latin America</h1>
-                <h2>Acerca del Festival</h2>
-            </div>
-            <div class="about-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 no-padding">
-                            <div class="about-image">
-                                <img  class="img-responsive" src="../../resources/images/about/1.jpg" alt="Image"/>
-                            </div>
+            <ui:define name="li-home">
+                <li class="dropdown active">
+                    <a href="../content/home.xhtml">Home
+                        <div class="equalizer">
+                            <span class="bar bar-1"></span>
+                            <span class="bar bar-2"></span>
+                            <span class="bar bar-3"></span>
+                            <span class="bar bar-4"></span>
+                            <span class="bar bar-5"></span>
+                            <span class="bar bar-6"></span>
+                            <span class="bar bar-7"></span>
+                            <span class="bar bar-8"></span>
+                            <span class="bar bar-9"></span>
+                            <span class="bar bar-10"></span>
                         </div>
-                        <div class="col-md-6 no-padding">
-                            <div class="about-info">
-                                <h3>Playbit music festival</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <ul  class="about-time">
-                                    <li><i class="fa fa-clock-o"></i>21 February, 2016 (09:00 pm - 02:00 am)</li>
-                                    <li><i class="fa fa-map"></i>123 Main Street, California, CA 10234, USA</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!-- row -->
-                </div><!-- container -->
-            </div><!-- about content -->
-        </div><!-- about section --> 
-        
-        <div class="clients-section section-padding before-after bg-white">
-            <div class="section-title">
-                <h1>Auspiciados por</h1>
-                <h2>Nuestros Sponsors</h2>
-            </div>             
-            <div class="container">
-                <div class="clients-slider">
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/1.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/2.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/3.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/4.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/1.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/2.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/3.png" alt="Image"/>
-                    </div>
-                    <div class="client">
-                        <img  class="img-responsive" src="../../resources/images/clients/4.png" alt="Image"/>
-                    </div>
-                </div>
-            </div><!-- container -->
-        </div><!-- clients section --> 
-        
-        <div class="contact-section before">
-            <div style="height: 500px;"></div>
-            <div class="contact-info">
-                <div class="time">
-                    <h2>19 <span>feb</span></h2>
-                </div>
-                <h3>Music festival</h3>
-                <ul>
-                    <li><i class="fa fa-clock-o"></i>21 February, 2016 (09:00 pm - 02:00 am)</li>
-                    <li><i class="fa fa-map"></i>123 Main Street, California, CA 10234, USA</li>
-                </ul>
-                <a href="#" class="btn btn-primary">Obtener Ticket</a>
-            </div>
-        </div><!-- contact section -->
+                    </a>
+                </li>
             </ui:define>
 
-           
+            <ui:define name="content">
+                <div class="home-banner">
+                    <div class="container">
+                        <div class="home-content text-center">
+                            <div class="logo-intro">
+                                <img  class="img-responsive" src="../../resources/images/logo-2.png" alt="Image"/>
+                                <span>Present</span>
+                            </div>
+                            <h2>Music Festival</h2>               
+                            <a href="#" class="btn btn-primary">Obtener Ticket<i class="fa fa-chevron-circle-right"></i></a>
+                            <ul class="social list-inline">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-soundcloud"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div><!-- container -->
+                </div><!-- home banner -->
+
+                <div class="about-section about bg-image section-padding before-after">
+                    <div class="section-title">
+                        <h1>Tour Latin America</h1>
+                        <h2>Acerca del Festival</h2>
+                    </div>
+                    <div class="about-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 no-padding">
+                                    <div class="about-image">
+                                        <img  class="img-responsive" src="../../resources/images/about/1.jpg" alt="Image"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="about-info">
+                                        <h3>Playbit music festival</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <ul  class="about-time">
+                                            <li><i class="fa fa-clock-o"></i>21 February, 2016 (09:00 pm - 02:00 am)</li>
+                                            <li><i class="fa fa-map"></i>123 Main Street, California, CA 10234, USA</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- row -->
+                        </div><!-- container -->
+                    </div><!-- about content -->
+                </div><!-- about section --> 
+
+                <div class="clients-section section-padding before-after bg-white">
+                    <div class="section-title">
+                        <h1>Auspiciados por</h1>
+                        <h2>Nuestros Sponsors</h2>
+                    </div>             
+                    <div class="container">
+                        <div class="clients-slider">
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/1.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/2.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/3.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/4.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/1.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/2.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/3.png" alt="Image"/>
+                            </div>
+                            <div class="client">
+                                <img  class="img-responsive" src="../../resources/images/clients/4.png" alt="Image"/>
+                            </div>
+                        </div>
+                    </div><!-- container -->
+                </div><!-- clients section --> 
+
+                <div class="contact-section before">
+                    <div style="height: 500px;"></div>
+                    <div class="contact-info">
+                        <div class="time">
+                            <h2>19 <span>feb</span></h2>
+                        </div>
+                        <h3>Music festival</h3>
+                        <ul>
+                            <li><i class="fa fa-clock-o"></i>21 February, 2016 (09:00 pm - 02:00 am)</li>
+                            <li><i class="fa fa-map"></i>123 Main Street, California, CA 10234, USA</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Obtener Ticket</a>
+                    </div>
+                </div><!-- contact section -->
+            </ui:define>
+
+
 
         </ui:composition>
 

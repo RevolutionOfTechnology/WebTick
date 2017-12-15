@@ -46,90 +46,138 @@
                         </div>
                         <nav class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown active">
-                                    <a href="javascript:void(0);">Home
-                                        <div class="equalizer">
-                                            <span class="bar bar-1"></span>
-                                            <span class="bar bar-2"></span>
-                                            <span class="bar bar-3"></span>
-                                            <span class="bar bar-4"></span>
-                                            <span class="bar bar-5"></span>
-                                            <span class="bar bar-6"></span>
-                                            <span class="bar bar-7"></span>
-                                            <span class="bar bar-8"></span>
-                                            <span class="bar bar-9"></span>
-                                            <span class="bar bar-10"></span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Conciertos
-                                        <div class="equalizer">
-                                            <span class="bar bar-1"></span>
-                                            <span class="bar bar-2"></span>
-                                            <span class="bar bar-3"></span>
-                                            <span class="bar bar-4"></span>
-                                            <span class="bar bar-5"></span>
-                                            <span class="bar bar-6"></span>
-                                            <span class="bar bar-7"></span>
-                                            <span class="bar bar-8"></span>
-                                            <span class="bar bar-9"></span>
-                                            <span class="bar bar-10"></span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Deportes
-                                        <div class="equalizer">
-                                            <span class="bar bar-1"></span>
-                                            <span class="bar bar-2"></span>
-                                            <span class="bar bar-3"></span>
-                                            <span class="bar bar-4"></span>
-                                            <span class="bar bar-5"></span>
-                                            <span class="bar bar-6"></span>
-                                            <span class="bar bar-7"></span>
-                                            <span class="bar bar-8"></span>
-                                            <span class="bar bar-9"></span>
-                                            <span class="bar bar-10"></span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Noticias
-                                        <div class="equalizer">
-                                            <span class="bar bar-1"></span>
-                                            <span class="bar bar-2"></span>
-                                            <span class="bar bar-3"></span>
-                                            <span class="bar bar-4"></span>
-                                            <span class="bar bar-5"></span>
-                                            <span class="bar bar-6"></span>
-                                            <span class="bar bar-7"></span>
-                                            <span class="bar bar-8"></span>
-                                            <span class="bar bar-9"></span>
-                                            <span class="bar bar-10"></span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Mis Compras
-                                        <div class="equalizer">
-                                            <span class="bar bar-1"></span>
-                                            <span class="bar bar-2"></span>
-                                            <span class="bar bar-3"></span>
-                                            <span class="bar bar-4"></span>
-                                            <span class="bar bar-5"></span>
-                                            <span class="bar bar-6"></span>
-                                            <span class="bar bar-7"></span>
-                                            <span class="bar bar-8"></span>
-                                            <span class="bar bar-9"></span>
-                                            <span class="bar bar-10"></span>
-                                        </div>
-                                    </a>
-                                </li>
+                                <ui:insert name="li-home">
+                                    <li>
+                                        <a href="../content/home.xhtml">Home
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-concert">
+                                    <li>
+                                        <a href="../content/concert.xhtml">
+                                            Conciertos
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-deport">
+                                    <li>
+                                        <a href="../content/deport.xhtml">
+                                            Deportes
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-concert">
+                                    <li>
+                                        <a href="../content/concert.xhtml">
+                                            Conciertos
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-contact">
+                                    <li>
+                                        <a href="../content/contact.xhtml">
+                                            Contáctanos
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-about">
+                                    <li>
+                                        <a href="../content/about.xhtml">
+                                            Acerca de
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
+                                <ui:insert name="li-buy">
+                                    <li>
+                                        <a href="#">
+                                            Mis Compras
+                                            <div class="equalizer">
+                                                <span class="bar bar-1"></span>
+                                                <span class="bar bar-2"></span>
+                                                <span class="bar bar-3"></span>
+                                                <span class="bar bar-4"></span>
+                                                <span class="bar bar-5"></span>
+                                                <span class="bar bar-6"></span>
+                                                <span class="bar bar-7"></span>
+                                                <span class="bar bar-8"></span>
+                                                <span class="bar bar-9"></span>
+                                                <span class="bar bar-10"></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ui:insert>
                                 <li>
                                     <a>
                                         <span style="font-weight: bold; color: black">Nombre del usuario</span>
@@ -138,6 +186,7 @@
                             </ul>
                         </nav>
                         <p:commandButton value="Cerrar Sesión" class="btn btn-primary"/>
+                        <a href="#" class="btn btn-primary">Regístrate!</a> 
                     </div><!-- container -->
                 </div><!-- navbar -->                                
             </header><!-- Header --> 
